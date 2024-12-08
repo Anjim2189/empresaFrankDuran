@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (appContainer) {
       // Crear un párrafo con texto personalizado
       const paragraph = document.createElement('p');
-      paragraph.textContent = 'Este es un párrafo cargado dinámicamente desde script.js.';
+      paragraph.textContent = 'HOLA DESDE JAVASCRIPT.js.';
       
       // Añadir el párrafo al contenedor 'app'
       appContainer.appendChild(paragraph);
