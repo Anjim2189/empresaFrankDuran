@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (appContainer) {
       // Crear un párrafo con texto personalizado
       const paragraph = document.createElement('p');
-      paragraph.textContent = 'HOLA DESDE JAVASCRIPT.js.';
+      paragraph.textContent = 'HOLA DESDE JAVASCRIPT by Francisco';
       
       // Añadir el párrafo al contenedor 'app'
       appContainer.appendChild(paragraph);
