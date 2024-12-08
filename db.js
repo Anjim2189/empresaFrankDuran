@@ -9,7 +9,7 @@ const pool = new Pool({
   password: 'pAY7yelr0IHP', // Contraseña de tu usuario
   port: 5432,                // Puerto de conexión, el predeterminado es 5432*/
   ssl: {
-    rejectUnauthorized: false, // Si es necesario para conexiones seguras
+    rejectUnauthorized: true, // Si es necesario para conexiones seguras
   }
 });
 
